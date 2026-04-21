@@ -15,8 +15,7 @@ A base de dados pública _star-dataset_ possui no total 240 estrelas, contendo u
 
 ## Bibliotecas Utilizadas 
 
-```
-python 
+```python 
 
 import numpy as np 
 import matplotlib.pyplot as plt 
