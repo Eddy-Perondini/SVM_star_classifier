@@ -15,7 +15,7 @@ A base de dados pública _star-dataset_ possui no total 240 estrelas, contendo u
 
 ## Bibliotecas Utilizadas 
 
-'''
+```
 python 
 
 import numpy as np 
@@ -27,34 +27,38 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 import pandas as pd 
 import kagglehub
-'''
+```
 
 ## Performance Obtida
 
-Classification Report
-----------------------------------------------------
-Class | Precision | Recall | F1-score | Support
-----------------------------------------------------
-0     |   0.69    |  1.00  |  0.82    |   9
-1     |   1.00    |  0.79  |  0.88    |  19
-2     |   1.00    |  1.00  |  1.00    |  14
-3     |   1.00    |  0.78  |  0.88    |   9
-4     |   0.82    |  1.00  |  0.90    |   9
-5     |   1.00    |  1.00  |  1.00    |  12
-----------------------------------------------------
-Accuracy: 0.92 (72 samples)
+| Class | Precision | Recall | F1-score | Support |
+|------|-----------|--------|---------|--------|
+| 0 | 0.69 | 1.00 | 0.82 | 9 |
+| 1 | 1.00 | 0.79 | 0.88 | 19 |
+| 2 | 1.00 | 1.00 | 1.00 | 14 |
+| 3 | 1.00 | 0.78 | 0.88 | 9 |
+| 4 | 0.82 | 1.00 | 0.90 | 9 |
+| 5 | 1.00 | 1.00 | 1.00 | 12 |
 
-Macro Avg
-Precision: 0.92
-Recall:    0.93
-F1-score:  0.91
+**Accuracy:** 0.92 (72 samples)
 
-Weighted Avg
-Precision: 0.94
-Recall:    0.92
-F1-score:  0.92
-----------------------------------------------------
-Accuracy Score: 0.9167
+### Macro Average
+
+| Metric | Score |
+|------|------|
+| Precision | 0.92 |
+| Recall | 0.93 |
+| F1-score | 0.91 |
+
+### Weighted Average
+
+| Metric | Score |
+|------|------|
+| Precision | 0.94 |
+| Recall | 0.92 |
+| F1-score | 0.92 |
+
+**Accuracy Score:** `0.9167`
 
 # Referências
 
